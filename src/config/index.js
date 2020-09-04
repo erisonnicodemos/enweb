@@ -24,6 +24,10 @@ module.exports = {
             name: "Behance",
             url: "https://www.behance.net/erisonnico5697"
         },
+        {
+            name: "WhatsApp",
+            url: "https://api.whatsapp.com/send?phone=5511994752185"
+        },
     ],
   
     navLinks: {
@@ -32,10 +36,10 @@ module.exports = {
                 name: "About Me",
                 url: "/#about",
             },
-            // {
-            //     name: "Projects",
-            //     url: "/#projects",
-            // },
+            {
+                name: "Portfolio",
+                url: "/#projects",
+            },
         ],
         button: {
             name: "Contact",
