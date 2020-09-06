@@ -1,11 +1,9 @@
 import React, { useState, useEffect, useContext } from "react"
 import styled from "styled-components"
-import SkeletonLoader from "tiny-skeleton-loader-react"
 import { motion, useAnimation } from "framer-motion"
 
 import Context from "../../context"
 import config from "../../config"
-import { parseDate } from "../../utils"
 
 import ContentWrapper from "../../styles/ContentWrapper"
 import Underlining from "../../styles/Underlining"

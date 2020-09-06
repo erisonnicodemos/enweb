@@ -33,16 +33,16 @@ module.exports = {
     navLinks: {
         menu: [
                         {
-                name: "About Me",
+                name: "Sobre",
                 url: "/#about",
             },
             {
-                name: "Portfolio",
+                name: "Portfólio",
                 url: "/#projects",
             },
         ],
         button: {
-            name: "Contact",
+            name: "Contato",
             url: "/#contact",
         }
     },
