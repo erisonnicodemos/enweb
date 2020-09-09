@@ -14,7 +14,7 @@ import Contact from "../components/sections/contact"
 
 const IndexPage = ({ data }) => (
   <Layout splashScreen={true}>
-    <SEO title="Erison Nicodemos - Desenvolvedor Front-End" />
+    <SEO title="Erison Nicodemos - Desenvolvedor Web" />
     <Hero content={data.hero.edges} />
     {/* Articles is populated via Medium RSS Feed fetch */}
     <Articles />
